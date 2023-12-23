@@ -29,7 +29,14 @@
 		},
 		"go.toolsManagement.autoUpdate": true,
 		//"go.toolsManagement.checkForUpdates": "off",
-		"gopls": { "ui.semanticTokens": true },
+		"gopls": {
+			"ui.semanticTokens": true
+			//https://github.com/golang/vscode-go/blob/master/docs/settings.md
+		},
+		"php.debug.port": [
+ 			9003
+    	]
+		,"php.validate.executablePath": "c:\\xampp\\php\\php.exe",
 		"redhat.telemetry.enabled": false,
 		/*"sqltools.connections": [
 			{
@@ -50,7 +57,7 @@
 		"workbench.colorTheme": "Default Dark+",
 		//"workbench.colorTheme": "Quiet Light",
 		"workbench.iconTheme": "vscode-icons",
-		"xml.symbols.maxItemsComputed": 0,
+		//"xml.symbols.maxItemsComputed": 0,
 		"xml.server.vmargs": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
 	}
 }
