@@ -30,8 +30,10 @@
 		"go.toolsManagement.autoUpdate": true,
 		//"go.toolsManagement.checkForUpdates": "off",
 		"gopls": {
-			"ui.semanticTokens": true
-			//https://github.com/golang/vscode-go/blob/master/docs/settings.md
+			"ui.semanticTokens": true,
+			"formatting.gofumpt": true,
+			"ui.completion.usePlaceholders": true,
+			"verboseOutput": true
 		},
 		"php.debug.port": [
  			9003
