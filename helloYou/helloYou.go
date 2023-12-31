@@ -4,7 +4,7 @@ import (
 	// "bufio"
 	// "bytes"
 	// "crypto" // .../aes, .../tls, .../cipher
-	cm "customModules"
+	cm "GoLang-Sandbox/customModules"
 	_ "database/sql"
 
 	// "encoding" // .../xml, .../json
@@ -44,11 +44,11 @@ func helloYou(fullName string) {
 	fmt.Println("Phrase: " + phrase)
 	fmt.Println("Upper Case (local pkg): " + cm.HelloYouToUpper(phrase))
 	fmt.Println("Reverse (pkg from web): " + reverse.String(phrase))
-	//Import XML & TXT file for data display
+	// Import XML & TXT file for data display
 }
 
 func main() {
 	name := fetchDB()
 	helloYou(name)
-	//fmt.Scanf("h") // keep terminal open
+	// fmt.Scanf("h") // keep terminal open
 }
