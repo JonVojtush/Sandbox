@@ -1,16 +1,19 @@
 package main
 
 import (
+	_ "database/sql"
+	"fmt"
+	_ "time"
+
 	// "bufio"
 	// "bytes"
 	// "crypto" // .../aes, .../tls, .../cipher
-	cm "GoLang-Sandbox/customModules"
-	_ "database/sql"
+	cm "github.com/JonVojtush/GoLang-Sandbox/customModules"
 
 	// "encoding" // .../xml, .../json
 	// "errors"
 	// "flag"
-	"fmt"
+
 	// "io" // .../ioutil
 	// "log"
 	// "net"  // .../url, .../http
@@ -19,7 +22,6 @@ import (
 	// "reflect"
 	// "strconv"
 	// "strings"
-	_ "time"
 
 	_ "github.com/go-sql-driver/mysql"
 	"golang.org/x/example/hello/reverse"
