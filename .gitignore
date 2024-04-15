@@ -16,8 +16,8 @@
 
 # GoLang
 *.work
-*.mod
-*.sum
+sandbox/go.mod
+sandbox/go.sum
 
 # Dependency directories (remove the comment below to include it)
 vendor/
