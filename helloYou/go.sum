@@ -1,6 +1,8 @@
-github.com/JonVojtush/GoLang-Sandbox v0.0.0-20240120071938-4a0e393df7bd h1:74q7BMFWRnp3pRepU3fhrnQcEg5RxC0LETp6K7n0LJo=
-github.com/JonVojtush/GoLang-Sandbox v0.0.0-20240120071938-4a0e393df7bd/go.mod h1:4/H9fmF/1/RrB8LEKxzPqpu2aRBm7JfbJhKEJvR37nA=
-github.com/go-sql-driver/mysql v1.7.1 h1:lUIinVbN1DY0xBg0eMOzmmtGoHwWBbvnWubQUrtU8EI=
-github.com/go-sql-driver/mysql v1.7.1/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9S1MCJN5yJMI=
-golang.org/x/example/hello v0.0.0-20240205180059-32022caedd6a h1:lnHwduM5X5Fb0YnIPyjyGzRY88cc0Fo6xTgaWDX2c7Q=
-golang.org/x/example/hello v0.0.0-20240205180059-32022caedd6a/go.mod h1:UhUKOXx5fMcLZxwL20DUrWWBBoRYG9Jvc8FiwZhRHCI=
+filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
+filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
+github.com/JonVojtush/GoLang-Sandbox v0.0.0-20240518045932-56d63d2cc5e6 h1:hirpgtT+MwdXEoyL3HAnfpsvcFFU0ZJMyaZ8SBFrFKI=
+github.com/JonVojtush/GoLang-Sandbox v0.0.0-20240518045932-56d63d2cc5e6/go.mod h1:4/H9fmF/1/RrB8LEKxzPqpu2aRBm7JfbJhKEJvR37nA=
+github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpvNJ1Y=
+github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
+golang.org/x/example/hello v0.0.0-20240830171155-88ba6f5abfa1 h1:uM0hhgSWnbPDIiYAapNz4rTwsSgcrwwyhsa1DrpZ42I=
+golang.org/x/example/hello v0.0.0-20240830171155-88ba6f5abfa1/go.mod h1:UhUKOXx5fMcLZxwL20DUrWWBBoRYG9Jvc8FiwZhRHCI=
