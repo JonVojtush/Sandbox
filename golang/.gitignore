@@ -16,9 +16,8 @@
 
 # GoLang
 *.work
-sandbox/go.mod
-sandbox/go.sum
+*.mod
+*.sum
 
 # Dependency directories (remove the comment below to include it)
-vendor/
-./vscode
+*/vendor/*
